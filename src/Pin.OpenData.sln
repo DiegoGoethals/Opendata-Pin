@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin.OpenData.Blazor", "Pin.OpenData.Blazor\Pin.OpenData.Blazor.csproj", "{70DE9EE1-89C3-455B-8BC9-25372EB890EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin.OpenData.Core", "Pin.OpenData.Core\Pin.OpenData.Core.csproj", "{157E9DC2-312B-4843-85FF-C75BE0E27C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70DE9EE1-89C3-455B-8BC9-25372EB890EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE9EE1-89C3-455B-8BC9-25372EB890EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE9EE1-89C3-455B-8BC9-25372EB890EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE9EE1-89C3-455B-8BC9-25372EB890EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157E9DC2-312B-4843-85FF-C75BE0E27C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157E9DC2-312B-4843-85FF-C75BE0E27C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157E9DC2-312B-4843-85FF-C75BE0E27C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157E9DC2-312B-4843-85FF-C75BE0E27C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D78AAFF-FB74-47EA-9BF5-EF132BD86137}
+	EndGlobalSection
+EndGlobal
