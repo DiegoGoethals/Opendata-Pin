@@ -1,4 +1,4 @@
-﻿@page "/detail/{id}"
+﻿@page "/detail/{name}"
 
 @using Pin.OpenData.Blazor.Models
 @using Pin.OpenData.Blazor.Services
@@ -17,20 +17,33 @@ else
         <p><strong>Name:</strong> @location.Name</p>
         <p><strong>Street:</strong> @location.StreetName @location.HouseNumber</p>
         <p><strong>Postal Code:</strong> @location.PostalCode</p>
-        <p><strong>City:</strong> @location.City</p>
-        <p><strong>Website:</strong> <a href="@location.Website" target="_blank">@location.Website</a></p>
-		<p><strong>Email:</strong> <a href="mailto:@location.Email">@location.Email</a></p>
-     </div>
+		@if (location.City != null)
+		{
+			<p><strong>City:</strong> @location.City</p>
+		}
+		else
+		{
+			<p><strong>City:</strong> Gent</p>
+		}
+		@if (location.Website != null)
+		{
+			<p><strong>Website:</strong> <a href="@location.Website" target="_blank">@location.Website</a></p>
+		}
+		@if (location.Email != null)
+		{
+			<p><strong>Email:</strong> <a href="mailto:@location.Email">@location.Email</a></p>
+		}
+	</div>
 }
 
 @code {
 	[Parameter]
-	public string id { get; set; }
+	public string name { get; set; }
 
 	Location location;
 
 	protected override void OnInitialized()
 	{
-		location = LocationService.GetLocation(id);
+		location = LocationService.GetLocation(name);
 	}
 }
