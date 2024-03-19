@@ -1,8 +1,5 @@
 ﻿using Newtonsoft.Json;
 using Pin.OpenData.Blazor.Models;
-using System.Reflection;
-using System.Windows;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Pin.OpenData.Blazor.Services
 {
@@ -30,6 +27,7 @@ namespace Pin.OpenData.Blazor.Services
                 {
                     Location location = new Location
                     {
+                        Id = item.objectid,
                         Name = item.naam,
                         StreetName = item.straatnaam,
                         HouseNumber = item.huisnummer,
@@ -37,7 +35,6 @@ namespace Pin.OpenData.Blazor.Services
                         City = item.gemeente,
                         Website = item.website,
                         Email = item.email,
-                        Drinkwater = item.drinkwater,
                         GeoPoint2D = new GeoPoint2D
                         {
                             Lon = item.geo_point_2d.lon,
@@ -60,5 +57,11 @@ namespace Pin.OpenData.Blazor.Services
 
             return locations;
         }
+
+        public Location GetLocation(string id)
+        {
+            var locations = GetLocations();
+			return locations.FirstOrDefault(l => l.Id == id);
+		}
     }
 }

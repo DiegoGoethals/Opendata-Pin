@@ -1,0 +1,36 @@
+﻿@page "/detail/{id}"
+
+@using Pin.OpenData.Blazor.Models
+@using Pin.OpenData.Blazor.Services
+
+@inject ILocationService LocationService
+
+<h3>Detail: @location.Name</h3>
+
+@if (location == null)
+{
+	<p>Loading...</p>
+}
+else
+{
+    <div>
+        <p><strong>Name:</strong> @location.Name</p>
+        <p><strong>Street:</strong> @location.StreetName @location.HouseNumber</p>
+        <p><strong>Postal Code:</strong> @location.PostalCode</p>
+        <p><strong>City:</strong> @location.City</p>
+        <p><strong>Website:</strong> <a href="@location.Website" target="_blank">@location.Website</a></p>
+		<p><strong>Email:</strong> <a href="mailto:@location.Email">@location.Email</a></p>
+     </div>
+}
+
+@code {
+	[Parameter]
+	public string id { get; set; }
+
+	Location location;
+
+	protected override void OnInitialized()
+	{
+		location = LocationService.GetLocation(id);
+	}
+}

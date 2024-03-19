@@ -1,7 +1,25 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+@using Pin.OpenData.Blazor.Components
+@using Pin.OpenData.Blazor.Models
+@using Pin.OpenData.Blazor.Services
 
-<h1>Hello, world!</h1>
+@inject ILocationService LocationService
 
-Welcome to your new app.
+<PageTitle>Drinkwater Gent</PageTitle>
+
+<ul class="card-container">
+    @foreach (var location in locations)
+    {
+	    <OverviewCard Location="location" />
+    }
+</ul>
+
+@code {
+    List<Location> locations;
+
+    protected override void OnInitialized()
+    {
+        locations = LocationService.GetLocations();
+    }
+}
