@@ -1,0 +1,2358 @@
+[
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.723290033688435, 51.05906401487128 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1121",
+        "crmid": "fee16435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Pratershol",
+        "straatnaam": "Kaatsspelplein",
+        "huisnummer": "8",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.pratershol@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "A03",
+        "sectornaam": "PATERSHOL",
+        "wijkcode": "1",
+        "wijknaam": "Binnenstad",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.723290033688435,
+            "lat": 51.05906401487128
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.715906549677263, 51.074210166573906 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1125",
+        "crmid": "a8376a2f-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Jan Yoens",
+        "straatnaam": "Jan Yoensstraat",
+        "huisnummer": "126",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.janyoens@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "M102",
+        "sectornaam": "VAN BEVEREPLEIN",
+        "wijkcode": "9",
+        "wijknaam": "Bloemekenswijk",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.715906549677263,
+            "lat": 51.074210166573906
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.764526194121658, 51.10152068597832 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1142",
+        "crmid": "f2e16435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis De Kiosk",
+        "straatnaam": "Gasthuisstraat",
+        "huisnummer": "2A",
+        "busnummer": null,
+        "postcode": "9041",
+        "gemeente": null,
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.dekiosk@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "D001",
+        "sectornaam": "OOSTAKKER CENTRUM",
+        "wijkcode": "12",
+        "wijknaam": "Oostakker",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.764526194121658,
+            "lat": 51.10152068597832
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.715378067287509, 51.09050788920707 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1151",
+        "crmid": "1de26435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Wondelgem",
+        "straatnaam": "Sint-Markoenstraat",
+        "huisnummer": "10",
+        "busnummer": null,
+        "postcode": "9032",
+        "gemeente": null,
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.wondelgem@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "M03",
+        "sectornaam": "WOESTIJNEGOED - MOLENHOEK",
+        "wijkcode": "8",
+        "wijknaam": "Wondelgem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.715378067287509,
+            "lat": 51.09050788920707
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.673727788454149, 51.0754682832496 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1154",
+        "crmid": "9e376a2f-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Mariakerke",
+        "straatnaam": "Kasteeldreef",
+        "huisnummer": "6",
+        "busnummer": null,
+        "postcode": "9030",
+        "gemeente": "Mariakerke (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.mariakerke@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "L09",
+        "sectornaam": "MARIAKERKE - VERSPREIDE BEWONING",
+        "wijkcode": "24",
+        "wijknaam": "Mariakerke",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.673727788454149,
+            "lat": 51.0754682832496
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.718876403391522, 51.02224370273756 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1157",
+        "crmid": "eee16435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Nieuw Gent",
+        "straatnaam": "Rerum-Novarumplein",
+        "huisnummer": "186C",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.nieuwgent@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "B443",
+        "sectornaam": "NIEUW GENT",
+        "wijkcode": "20",
+        "wijknaam": "Nieuw Gent - UZ",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.718876403391522,
+            "lat": 51.02224370273756
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.744485395644578, 51.038338455497026 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "162",
+        "crmid": "51046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Ledeberg",
+        "straatnaam": "Driesstraat",
+        "huisnummer": "99",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Ledeberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "ledeberg.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "G00",
+        "sectornaam": "LEDEBERG - CENTRUM",
+        "wijkcode": "18",
+        "wijknaam": "Ledeberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.744485395644578,
+            "lat": 51.038338455497026
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.745476264302591, 51.0616711093469 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "144",
+        "crmid": "5f046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Sint-Amandsberg",
+        "straatnaam": "Halvemaanstraat",
+        "huisnummer": "92",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Sint-Amandsberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "sintamandsberg.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "E00",
+        "sectornaam": "SINT - AMANDSBERG CENTRUM",
+        "wijkcode": "14",
+        "wijknaam": "Sint-Amandsberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.745476264302591,
+            "lat": 51.0616711093469
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.668060197762145, 51.019975829087066 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "146",
+        "crmid": "62046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Sint-Denijs-Westrem",
+        "straatnaam": "Gemeenteplein",
+        "huisnummer": "14",
+        "busnummer": null,
+        "postcode": "9051",
+        "gemeente": "Sint-Denijs-Westrem (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "sintdenijswestrem.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "J00",
+        "sectornaam": "SINT - DENIJS - WESTREM - CENTRUM",
+        "wijkcode": "23",
+        "wijknaam": "Sint-Denijs-Westrem - Afsnee",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.668060197762145,
+            "lat": 51.019975829087066
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.75686640429553, 51.04415029787525 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "160",
+        "crmid": "4e046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Gentbrugge",
+        "straatnaam": "Sint-Simonstraat",
+        "huisnummer": "41",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gentbrugge (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "gentbrugge.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "F001",
+        "sectornaam": "GENTBRUGGE - CENTRUM",
+        "wijkcode": "17",
+        "wijknaam": "Oud Gentbrugge",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.75686640429553,
+            "lat": 51.04415029787525
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.728670719449416, 51.04865310935596 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "168",
+        "crmid": "30046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek De Krook",
+        "straatnaam": "Miriam Makebaplein",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "bibliotheek@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "A31",
+        "sectornaam": "NEDERKOUTER",
+        "wijkcode": "1",
+        "wijknaam": "Binnenstad",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.728670719449416,
+            "lat": 51.04865310935596
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.727833226993487, 51.06700723397567 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1040",
+        "crmid": "eb594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Thuishaven",
+        "straatnaam": "Neuseplein",
+        "huisnummer": "33",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.dethuishaven@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "A60",
+        "sectornaam": "VOORMUIDE",
+        "wijkcode": "2",
+        "wijknaam": "Sluizeken - Tolhuis - Ham",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.727833226993487,
+            "lat": 51.06700723397567
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.727500239743025, 51.085940008612525 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1048",
+        "crmid": "f1594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Waterspiegel",
+        "straatnaam": "Meulesteedsesteenweg",
+        "huisnummer": "510",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.dewaterspiegel@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "C811",
+        "sectornaam": "MEULESTEDE",
+        "wijkcode": "10",
+        "wijknaam": "Muide - Meulestede - Afrikalaan",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.727500239743025,
+            "lat": 51.085940008612525
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.723569945576908, 51.0360904372743 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "833",
+        "crmid": "46c5c0f9-ef8c-e911-80e8-005056af0e87",
+        "naam": "GUM - Gents Universiteitsmuseum",
+        "straatnaam": "Karel Lodewijk Ledeganckstraat",
+        "huisnummer": "35",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.gum.gent/nl",
+        "email": "info.gum@ugent.be",
+        "telefoon": null,
+        "trefwoord": "Musea",
+        "sectorcode": "A342",
+        "sectornaam": "CITADELPARK",
+        "wijkcode": "22",
+        "wijknaam": "Stationsbuurt-Noord",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.723569945576908,
+            "lat": 51.0360904372743
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.703275057940659, 51.0476038113793 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1",
+        "crmid": null,
+        "naam": "Drinkwaterfontein Farys",
+        "straatnaam": "Watersportlaan",
+        "huisnummer": null,
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": null,
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Drinkwaterfontein",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.703275057940659,
+            "lat": 51.0476038113793
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.701707654781195, 51.058543639046775 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "Trafiek vzw",
+        "straatnaam": "Haspelstraat",
+        "huisnummer": "37A",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "http://trafiek.blogspot.be/",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.701707654781195,
+            "lat": 51.058543639046775
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.721633394527785, 51.0516557607842 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "879",
+        "crmid": "5b677ab3-f689-e111-a140-0050569826fc",
+        "naam": "Hotel d'Hane-Steenhuyse",
+        "straatnaam": "Veldstraat",
+        "huisnummer": "55",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stadspaleizen.stad.gent/",
+        "email": "boekjebezoek@stad.gent",
+        "telefoon": "092668500",
+        "trefwoord": "Monumenten",
+        "sectorcode": "A02",
+        "sectornaam": "KOUTER",
+        "wijkcode": "1",
+        "wijknaam": "Binnenstad",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.721633394527785,
+            "lat": 51.0516557607842
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.699139418579173, 51.05787358403196 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "278",
+        "crmid": "512b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Brugse Poort - Malem",
+        "straatnaam": "Kokerstraat",
+        "huisnummer": "36",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.brugsepoort@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A50",
+        "sectornaam": "DRONGENSTEENWEG",
+        "wijkcode": "4",
+        "wijknaam": "Brugse Poort - Rooigem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.699139418579173,
+            "lat": 51.05787358403196
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.748584269291325, 51.054349666329294 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "280",
+        "crmid": "542b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Dampoort - Bernadette",
+        "straatnaam": "Doornakkerstraat",
+        "huisnummer": "52",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Sint-Amandsberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.dampoortbernadette@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "E021",
+        "sectornaam": "GROOT BEGIJNHOF",
+        "wijkcode": "13",
+        "wijknaam": "Dampoort",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.748584269291325,
+            "lat": 51.054349666329294
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.727815901588084, 51.06126769021956 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "283",
+        "crmid": "6e2b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Sluizeken - Tolhuis - Ham",
+        "straatnaam": "Godshuishammeke",
+        "huisnummer": "20",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.sluizekentolhuisham@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A63",
+        "sectornaam": "TOLHUIS",
+        "wijkcode": "2",
+        "wijknaam": "Sluizeken - Tolhuis - Ham",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.727815901588084,
+            "lat": 51.06126769021956
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.739907189819308, 51.03426677729595 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "286",
+        "crmid": "5a2b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Ledeberg - Moscou",
+        "straatnaam": "Hundelgemsesteenweg",
+        "huisnummer": "125",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Ledeberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.ledeberg@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "G031",
+        "sectornaam": "EINDEKE",
+        "wijkcode": "18",
+        "wijknaam": "Ledeberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.739907189819308,
+            "lat": 51.03426677729595
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.732648739710892, 51.07411374279251 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "292",
+        "crmid": "602b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Muide - Meulestede - Afrikalaan",
+        "straatnaam": "Patrijsstraat",
+        "huisnummer": "10",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.muidemeulestede@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "C800",
+        "sectornaam": "MUIDE",
+        "wijkcode": "10",
+        "wijknaam": "Muide - Meulestede - Afrikalaan",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.732648739710892,
+            "lat": 51.07411374279251
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.712918754090304, 51.0633208397209 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "298",
+        "crmid": "682b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Rabot - Blaisantvest",
+        "straatnaam": "Jozef II-straat",
+        "huisnummer": "104",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.rabot@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A801",
+        "sectornaam": "WONDELGEMSTRAAT",
+        "wijkcode": "7",
+        "wijknaam": "Rabot - Blaisantvest",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.712918754090304,
+            "lat": 51.0633208397209
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.719621516237909, 51.023628014706766 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "De Serre",
+        "straatnaam": "Rerum-Novarumplein",
+        "huisnummer": "10",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/plannen-en-projecten/de-serre",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": null,
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.719621516237909,
+            "lat": 51.023628014706766
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.751228598140413, 51.060993551913086 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1132",
+        "crmid": "91376a2f-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Azalea",
+        "straatnaam": "Azaleastraat",
+        "huisnummer": "20",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.azalea@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "E01",
+        "sectornaam": "SINT - BAAFSKOUTER",
+        "wijkcode": "14",
+        "wijknaam": "Sint-Amandsberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.751228598140413,
+            "lat": 51.060993551913086
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.747774226177734, 51.045670316440784 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1136",
+        "crmid": "94376a2f-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Bassijn",
+        "straatnaam": "Bassijnstraat",
+        "huisnummer": "2",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.bassijn@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "G101",
+        "sectornaam": "L. VANHOUTTEBUURT (ST-ANTONIUS)",
+        "wijkcode": "17",
+        "wijknaam": "Oud Gentbrugge",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.747774226177734,
+            "lat": 51.045670316440784
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.75452272774826, 51.068514763904616 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1145",
+        "crmid": "12e26435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Ter Biest",
+        "straatnaam": "Biest",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.terbiest@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "E031",
+        "sectornaam": "SYNGEMKOUTER",
+        "wijkcode": "14",
+        "wijknaam": "Sint-Amandsberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.75452272774826,
+            "lat": 51.068514763904616
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.817545009056224, 51.15539818287071 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1148",
+        "crmid": "0ce26435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Winkele",
+        "straatnaam": "Sint-Kruis-Winkeldorp",
+        "huisnummer": "17",
+        "busnummer": null,
+        "postcode": "9042",
+        "gemeente": "Sint-Kruis-Winkel (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.winkele@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "D60",
+        "sectornaam": "SINT - KRUIS - WINKEL",
+        "wijkcode": "11",
+        "wijknaam": "Gentse Kanaaldorpen en -zone",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.817545009056224,
+            "lat": 51.15539818287071
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.730121526582807, 51.030027927757686 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1161",
+        "crmid": "f5e16435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Otterken",
+        "straatnaam": "Ottergemsesteenweg",
+        "huisnummer": "252",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.otterken@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "B411",
+        "sectornaam": "OTTERGEMSE DRIES",
+        "wijkcode": "20",
+        "wijknaam": "Nieuw Gent - UZ",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.730121526582807,
+            "lat": 51.030027927757686
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.76723152910952, 51.04393691664876 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1165",
+        "crmid": "01e26435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Robinia",
+        "straatnaam": "Robiniahof",
+        "huisnummer": "3",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gentbrugge (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.robinia@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "F01",
+        "sectornaam": "DRIES",
+        "wijkcode": "16",
+        "wijknaam": "Gentbrugge",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.76723152910952,
+            "lat": 51.04393691664876
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.675573894082471, 51.077118152195155 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "139",
+        "crmid": "55046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Mariakerke",
+        "straatnaam": "Trekweg",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9030",
+        "gemeente": "Mariakerke (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "mariakerke.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "L03",
+        "sectornaam": "BRUG ZUIDWEST",
+        "wijkcode": "24",
+        "wijknaam": "Mariakerke",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.675573894082471,
+            "lat": 51.077118152195155
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.709346907238035, 51.08864343130081 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "151",
+        "crmid": "6b046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Wondelgem",
+        "straatnaam": "Botestraat",
+        "huisnummer": "2",
+        "busnummer": null,
+        "postcode": "9032",
+        "gemeente": "Wondelgem (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "wondelgem.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "M020",
+        "sectornaam": "KOUTERKEN (WONDELGEM)",
+        "wijkcode": "8",
+        "wijknaam": "Wondelgem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.709346907238035,
+            "lat": 51.08864343130081
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.712713169387373, 51.00203012201464 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "153",
+        "crmid": "6e046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Zwijnaarde",
+        "straatnaam": "Heerweg-Zuid",
+        "huisnummer": "22",
+        "busnummer": null,
+        "postcode": "9052",
+        "gemeente": "Zwijnaarde (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "zwijnaarde.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "H053",
+        "sectornaam": "TER LINDEN",
+        "wijkcode": "19",
+        "wijknaam": "Zwijnaarde",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.712713169387373,
+            "lat": 51.00203012201464
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.718876403391522, 51.02224370273756 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "155",
+        "crmid": "59046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Nieuw Gent",
+        "straatnaam": "Rerum-Novarumplein",
+        "huisnummer": "186B",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "nieuwgent.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "B443",
+        "sectornaam": "NIEUW GENT",
+        "wijkcode": "20",
+        "wijknaam": "Nieuw Gent - UZ",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.718876403391522,
+            "lat": 51.02224370273756
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.739907189819308, 51.03426677729595 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1036",
+        "crmid": "dab1d27b-d655-e311-afa8-00505698671c",
+        "naam": "Lokaal Dienstencentrum De Knoop",
+        "straatnaam": "Hundelgemsesteenweg",
+        "huisnummer": "125",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Ledeberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.deknoop@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "G031",
+        "sectornaam": "EINDEKE",
+        "wijkcode": "18",
+        "wijknaam": "Ledeberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.739907189819308,
+            "lat": 51.03426677729595
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.71137693909843, 51.00390083666203 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1038",
+        "crmid": "fc5dcfdf-ed93-e811-9acc-00505698671c",
+        "naam": "Lokaal Dienstencentrum De Mantel",
+        "straatnaam": "Hutsepotstraat",
+        "huisnummer": "29",
+        "busnummer": null,
+        "postcode": "9052",
+        "gemeente": "Zwijnaarde (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.demantel@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "H053",
+        "sectornaam": "TER LINDEN",
+        "wijkcode": "19",
+        "wijknaam": "Zwijnaarde",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.71137693909843,
+            "lat": 51.00390083666203
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.762162366486362, 51.041117173396024 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1052",
+        "crmid": "482b4e0d-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum Speltincx",
+        "straatnaam": "Meersemdries",
+        "huisnummer": "4",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gentbrugge (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.speltincx@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "F01",
+        "sectornaam": "DRIES",
+        "wijkcode": "16",
+        "wijknaam": "Gentbrugge",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.762162366486362,
+            "lat": 51.041117173396024
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.712253316649147, 51.05670157562602 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1054",
+        "crmid": "4b2b4e0d-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum Ten Hove",
+        "straatnaam": "Begijnhofdries",
+        "huisnummer": "15",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": null,
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.tenhove@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "A05",
+        "sectornaam": "BEGIJNHOFDRIES",
+        "wijkcode": "6",
+        "wijknaam": "Elisabethbegijnhof - Prinsenhof - Papegaai - Sint-",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.712253316649147,
+            "lat": 51.05670157562602
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.712521971721303, 51.00417680758424 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "619",
+        "crmid": "ceb17471-f689-e111-a140-0050569826fc",
+        "naam": "Dienstencentrum Zwijnaarde",
+        "straatnaam": "Hutsepotstraat",
+        "huisnummer": "29A",
+        "busnummer": null,
+        "postcode": "9052",
+        "gemeente": null,
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/dienstencentra",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Dienstencentra",
+        "sectorcode": "H001",
+        "sectornaam": "ZWIJNAARDE - CENTRUM",
+        "wijkcode": "19",
+        "wijknaam": "Zwijnaarde",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.712521971721303,
+            "lat": 51.00417680758424
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.721259472927652, 51.0515231999279 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "878",
+        "crmid": "3f677ab3-f689-e111-a140-0050569826fc",
+        "naam": "Huis Arnold Vander Haeghen",
+        "straatnaam": "Veldstraat",
+        "huisnummer": "82",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://historischehuizen.stad.gent/nl/stadspaleizen/bezoek/huis-arnold-vander-haeghen",
+        "email": "historischehuizen@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Musea",
+        "sectorcode": "A02",
+        "sectornaam": "KOUTER",
+        "wijkcode": "1",
+        "wijknaam": "Binnenstad",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.721259472927652,
+            "lat": 51.0515231999279
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.727037499430331, 51.041929317090684 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1315",
+        "crmid": "6a294c55-f789-e111-a140-0050569826fc",
+        "naam": "Sint-Pietersabdij",
+        "straatnaam": "Sint-Pietersplein",
+        "huisnummer": "9",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://historischehuizen.stad.gent/nl/sint-pietersabdij",
+        "email": "sintpietersabdij@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Musea",
+        "sectorcode": "A321",
+        "sectornaam": "SINT - PIETERS",
+        "wijkcode": "1",
+        "wijknaam": "Binnenstad",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.727037499430331,
+            "lat": 51.041929317090684
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.682399521711963, 51.06689069049937 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "4",
+        "crmid": null,
+        "naam": "Natuurcentrum Jan Hubl\u00e9",
+        "straatnaam": "Driepikkelstraat",
+        "huisnummer": "32",
+        "busnummer": null,
+        "postcode": "9030",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/groen-milieu/parken/grote-parken-en-natuurgebieden/bourgoyen-ossemeersen/natuurcentrum-jan-huble-bourgoyen",
+        "email": "groendienst@stad.gent",
+        "telefoon": "09/323 57 00",
+        "trefwoord": "Educatieve Diensten",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.682399521711963,
+            "lat": 51.06689069049937
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.699396763842995, 51.05877593480024 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "De Rode Lotus",
+        "straatnaam": "Meibloemstraat",
+        "huisnummer": "18",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.facebook.com/derodelotus",
+        "email": null,
+        "telefoon": "0479798969",
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.699396763842995,
+            "lat": 51.05877593480024
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.731046187478761, 51.06823116074961 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "De Sloep vzw",
+        "straatnaam": "Bevelandstraat",
+        "huisnummer": "26",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.desloep.be/",
+        "email": null,
+        "telefoon": "092343858",
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.731046187478761,
+            "lat": 51.06823116074961
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.732533057965812, 51.042107400265614 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "De Tinten",
+        "straatnaam": "Fran\u00e7ois Benardstraat",
+        "huisnummer": "86",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "http://www.detinten.be/",
+        "email": null,
+        "telefoon": "092445742",
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.732533057965812,
+            "lat": 51.042107400265614
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.71917313410599, 51.05733927795502 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": "6dfb5d65-f689-e111-a140-0050569826fc",
+        "naam": "Medisch Sociaal Opvangcentrum",
+        "straatnaam": "Gewad",
+        "huisnummer": "13",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/samenleven-welzijn-gezondheid/samenleven-welzijn-gezondheid/medisch-sociaal-opvangcentrum-msoc-gent",
+        "email": "msoc@stad.gent",
+        "telefoon": "092234644",
+        "trefwoord": "Diensten Samenleven, Welzijn en Gezondheid",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.71917313410599,
+            "lat": 51.05733927795502
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.743289627146901, 51.04299279784479 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "247",
+        "crmid": "572b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Gentbrugge",
+        "straatnaam": "Emiel Hullebroeckplein",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gentbrugge (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.gentbrugge@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "G101",
+        "sectornaam": "L. VANHOUTTEBUURT (ST-ANTONIUS)",
+        "wijkcode": "17",
+        "wijknaam": "Oud Gentbrugge",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.743289627146901,
+            "lat": 51.04299279784479
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.74067199820022, 51.046261774211565 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "289",
+        "crmid": "5d2b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Macharius - Heirnis - Scheldeoord",
+        "straatnaam": "Tarbotstraat",
+        "huisnummer": "61A",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.machariusheirnis@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A13",
+        "sectornaam": "HEERNIS",
+        "wijkcode": "3",
+        "wijknaam": "Macharius - Heirnis",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.74067199820022,
+            "lat": 51.046261774211565
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.745268587126367, 51.04223936910056 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "Toontje",
+        "straatnaam": "Louis Van Houttestraat",
+        "huisnummer": "62",
+        "busnummer": null,
+        "postcode": "9050",
+        "gemeente": "Gentbrugge",
+        "website": "https://www.krasgent.be/werkingen/toontje.html",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.745268587126367,
+            "lat": 51.04223936910056
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.664636381170793, 51.05125504531888 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1115",
+        "crmid": "a1376a2f-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Aan de Leie",
+        "straatnaam": "Domien Ingelsstraat",
+        "huisnummer": "15A",
+        "busnummer": null,
+        "postcode": "9031",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.aandeleie@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "K001",
+        "sectornaam": "DRONGEN DORP",
+        "wijkcode": "25",
+        "wijknaam": "Drongen",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.664636381170793,
+            "lat": 51.05125504531888
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.749480474510048, 51.05283366407965 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1139",
+        "crmid": "e4e16435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Krekelberg",
+        "straatnaam": "Krekelberg",
+        "huisnummer": "18",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.krekelberg@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "E021",
+        "sectornaam": "GROOT BEGIJNHOF",
+        "wijkcode": "13",
+        "wijknaam": "Dampoort",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.749480474510048,
+            "lat": 51.05283366407965
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.669504341605904, 51.02166165623754 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1168",
+        "crmid": "08e26435-f689-e111-a140-0050569826fc",
+        "naam": "Open Huis Sint-Denijs-Westrem",
+        "straatnaam": "Pastorijdreef",
+        "huisnummer": "6",
+        "busnummer": null,
+        "postcode": "9051",
+        "gemeente": "Sint-Denijs-Westrem (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "openhuis.sintdenijswestrem@gmail.com",
+        "telefoon": null,
+        "trefwoord": "Open Huizen en Buurthuizen",
+        "sectorcode": "J00",
+        "sectornaam": "SINT - DENIJS - WESTREM - CENTRUM",
+        "wijkcode": "23",
+        "wijknaam": "Sint-Denijs-Westrem - Afsnee",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.669504341605904,
+            "lat": 51.02166165623754
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.657650743420043, 51.0500402956036 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "138",
+        "crmid": "4b046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Drongen",
+        "straatnaam": "Antoon Catriestraat",
+        "huisnummer": "4",
+        "busnummer": null,
+        "postcode": "9031",
+        "gemeente": "Drongen (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "drongen.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "K001",
+        "sectornaam": "DRONGEN DORP",
+        "wijkcode": "25",
+        "wijknaam": "Drongen",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.657650743420043,
+            "lat": 51.0500402956036
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.706442924427472, 51.044199845409786 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "148",
+        "crmid": "65046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Watersportbaan",
+        "straatnaam": "Neermeerskaai",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "watersportbaan.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "A42",
+        "sectornaam": "NEERMEERSEN",
+        "wijkcode": "5",
+        "wijknaam": "Watersportbaan - Ekkergem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.706442924427472,
+            "lat": 51.044199845409786
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.774528265812418, 51.066926984734025 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "149",
+        "crmid": "68046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Westveld",
+        "straatnaam": "Heiveldstraat",
+        "huisnummer": "350",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Sint-Amandsberg (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "westveld.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "E10",
+        "sectornaam": "WESTVELD - KERN",
+        "wijkcode": "14",
+        "wijknaam": "Sint-Amandsberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.774528265812418,
+            "lat": 51.066926984734025
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.705552662626014, 51.071352453022236 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "164",
+        "crmid": "45046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Bloemekenswijk",
+        "straatnaam": "Francisco Ferrerlaan",
+        "huisnummer": "275A",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "bloemekenswijk.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "L121",
+        "sectornaam": "RUSTOORD",
+        "wijkcode": "9",
+        "wijknaam": "Bloemekenswijk",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.705552662626014,
+            "lat": 51.071352453022236
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.697208749520032, 51.06257227248126 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "165",
+        "crmid": "48046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Brugse Poort",
+        "straatnaam": "Blazoenstraat",
+        "huisnummer": "9",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "brugsepoort.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "A531",
+        "sectornaam": "ROOIGEM",
+        "wijkcode": "4",
+        "wijknaam": "Brugse Poort - Rooigem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.697208749520032,
+            "lat": 51.06257227248126
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.764699328000148, 51.09969921420299 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "157",
+        "crmid": "5c046705-f689-e111-a140-0050569826fc",
+        "naam": "Bibliotheek - Oostakker",
+        "straatnaam": "Sint-Laurentiuslaan",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9041",
+        "gemeente": "Oostakker (Gent)",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/bibliotheken",
+        "email": "oostakker.bib@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Bibliotheken",
+        "sectorcode": "D001",
+        "sectornaam": "OOSTAKKER CENTRUM",
+        "wijkcode": "12",
+        "wijknaam": "Oostakker",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.764699328000148,
+            "lat": 51.09969921420299
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.736770718120734, 51.05171126064189 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1032",
+        "crmid": "e5594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Horizon",
+        "straatnaam": "Ferdinand Lousbergskaai",
+        "huisnummer": "12",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.dehorizon@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "A10",
+        "sectornaam": "SINT - MACHARIUS",
+        "wijkcode": "3",
+        "wijknaam": "Macharius - Heirnis",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.736770718120734,
+            "lat": 51.05171126064189
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.693005722971443, 51.07082837346976 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1034",
+        "crmid": "e2594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Boei",
+        "straatnaam": "Vaartstraat",
+        "huisnummer": "2A",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.deboei@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "L011",
+        "sectornaam": "KOLEGEM",
+        "wijkcode": "24",
+        "wijknaam": "Mariakerke",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.693005722971443,
+            "lat": 51.07082837346976
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.707628688695475, 51.04441877405137 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1043",
+        "crmid": "ee594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Vlaschaard",
+        "straatnaam": "Jubileumlaan",
+        "huisnummer": "219",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.devlaschaard@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "A42",
+        "sectornaam": "NEERMEERSEN",
+        "wijkcode": "5",
+        "wijknaam": "Watersportbaan - Ekkergem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.707628688695475,
+            "lat": 51.04441877405137
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.722773957455215, 51.033639181536635 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1045",
+        "crmid": "e8594c07-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum De Regenboog",
+        "straatnaam": "Lucas de Heerestraat",
+        "huisnummer": "83",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.deregenboog@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "A33",
+        "sectornaam": "HEUVELPOORT",
+        "wijkcode": "22",
+        "wijknaam": "Stationsbuurt-Noord",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.722773957455215,
+            "lat": 51.033639181536635
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.760850108693016, 51.06738860982285 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "1056",
+        "crmid": "4f2b4e0d-f789-e111-a140-0050569826fc",
+        "naam": "Lokaal Dienstencentrum Wibier",
+        "straatnaam": "Antwerpsesteenweg",
+        "huisnummer": "768",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": null,
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/lokale-dienstencentra",
+        "email": "ldc.wibier@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Lokale Dienstencentra",
+        "sectorcode": "E052",
+        "sectornaam": "ROZEBROEKEN",
+        "wijkcode": "14",
+        "wijknaam": "Sint-Amandsberg",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.760850108693016,
+            "lat": 51.06738860982285
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.760449679406033, 51.06056797031408 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "2",
+        "crmid": null,
+        "naam": "Drinkwaterfontein Farys",
+        "straatnaam": "Rozebroekslag",
+        "huisnummer": null,
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Sint-Amandsberg",
+        "website": null,
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Drinkwaterfontein",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.760449679406033,
+            "lat": 51.06056797031408
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.629415877308711, 51.066997081078426 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "5",
+        "crmid": null,
+        "naam": "Schoolhoeve De Campagne",
+        "straatnaam": "Gijzelstraat",
+        "huisnummer": "14",
+        "busnummer": null,
+        "postcode": "9031",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/cultuur-vrije-tijd/vrije-tijd/parken-en-speelterreinen/schoolhoeve-de-campagne",
+        "email": null,
+        "telefoon": "09/323 51 21",
+        "trefwoord": "Educatieve Diensten",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.629415877308711,
+            "lat": 51.066997081078426
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.710111320354652, 51.072788624460685 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "De Fontein",
+        "straatnaam": "Edmond Van Beverenplein",
+        "huisnummer": "22",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://krasgent.be/werkingen/de-fontein.html",
+        "email": null,
+        "telefoon": "092366252",
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.710111320354652,
+            "lat": 51.072788624460685
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.730701989670509, 51.04759478032193 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": null,
+        "crmid": null,
+        "naam": "Stadskantoor",
+        "straatnaam": "Woodrow Wilsonplein",
+        "huisnummer": "1",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/gentinfo-stadskantoor-gent",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Dienstencentra",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": null,
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.730701989670509,
+            "lat": 51.04759478032193
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.707628688695475, 51.04441877405137 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "244",
+        "crmid": "0150949e-9652-e311-afa8-00505698671c",
+        "naam": "Buurtwerk Watersportbaan",
+        "straatnaam": "Jubileumlaan",
+        "huisnummer": "219",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.watersportbaan@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A42",
+        "sectornaam": "NEERMEERSEN",
+        "wijkcode": "5",
+        "wijknaam": "Watersportbaan - Ekkergem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.707628688695475,
+            "lat": 51.04441877405137
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.708003931556387, 51.06992586140711 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "274",
+        "crmid": "4e2b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Bloemekenswijk",
+        "straatnaam": "Frans van Ryhovelaan",
+        "huisnummer": "119",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.bloemekenswijk@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "M102",
+        "sectornaam": "VAN BEVEREPLEIN",
+        "wijkcode": "9",
+        "wijknaam": "Bloemekenswijk",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.708003931556387,
+            "lat": 51.06992586140711
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.718109211326268, 51.022373411392 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "295",
+        "crmid": "642b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Nieuw Gent - Steenakker",
+        "straatnaam": "Rerum-Novarumplein",
+        "huisnummer": "180C",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.nieuwgent@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "B443",
+        "sectornaam": "NIEUW GENT",
+        "wijkcode": "20",
+        "wijknaam": "Nieuw Gent - UZ",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.718109211326268,
+            "lat": 51.022373411392
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.699139418579173, 51.05787358403196 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "301",
+        "crmid": "6b2b5e17-f689-e111-a140-0050569826fc",
+        "naam": "Buurtwerk Rooigem",
+        "straatnaam": "Kokerstraat",
+        "huisnummer": "36",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://stad.gent/nl/openingsuren-adressen/trefwoord/buurtvoorzieningen-van-de-dienst-ontmoeten-en-verbinden",
+        "email": "buurtwerk.rooigem@stad.gent",
+        "telefoon": null,
+        "trefwoord": "Buurtwerkingen",
+        "sectorcode": "A50",
+        "sectornaam": "DRONGENSTEENWEG",
+        "wijkcode": "4",
+        "wijknaam": "Brugse Poort - Rooigem",
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.699139418579173,
+            "lat": 51.05787358403196
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.703133689671295, 51.05872194981153 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "Open Plaats",
+        "straatnaam": "Sint-Jan-Baptiststraat",
+        "huisnummer": "1A",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.krasgent.be/werkingen/sociale-dienst-openplaats.html",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.703133689671295,
+            "lat": 51.05872194981153
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.730623052425594, 51.05586868274387 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "Huize Nieuwpoort",
+        "straatnaam": "Nieuwpoort",
+        "huisnummer": "50",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.krasgent.be/werkingen/huize-nieuwpoort.html",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.730623052425594,
+            "lat": 51.05586868274387
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.748572932401546, 51.05434412327438 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "vzw Sivi",
+        "straatnaam": "Doornakkerstraat",
+        "huisnummer": "54",
+        "busnummer": null,
+        "postcode": "9040",
+        "gemeente": "Sint-Amandsberg",
+        "website": "https://krasgent.be/werkingen/vzw-sivi.html",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.748572932401546,
+            "lat": 51.05434412327438
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.718779647179676, 51.02371212274401 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "De Zuidpoort",
+        "straatnaam": "Rerum-Novarumplein",
+        "huisnummer": "25",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://dezuidpoortgent.be/kalender/",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.718779647179676,
+            "lat": 51.02371212274401
+        }
+    },
+    {
+        "geometry": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [ 3.738738155034214, 51.05458639562391 ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "objectid": "0",
+        "crmid": null,
+        "naam": "De  Sluis-Onze Thuis",
+        "straatnaam": "Kasteellaan",
+        "huisnummer": "435",
+        "busnummer": null,
+        "postcode": "9000",
+        "gemeente": "Gent",
+        "website": "https://www.krasgent.be/werkingen/de-sluis-onze-thuis.html",
+        "email": null,
+        "telefoon": null,
+        "trefwoord": "Aanlandplekken",
+        "sectorcode": null,
+        "sectornaam": null,
+        "wijkcode": "0",
+        "wijknaam": null,
+        "drinkwater": "JA",
+        "geo_point_2d": {
+            "lon": 3.738738155034214,
+            "lat": 51.05458639562391
+        }
+    }
+]

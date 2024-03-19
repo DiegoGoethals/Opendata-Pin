@@ -1,0 +1,41 @@
+﻿@page "/locations"
+
+@using Pin.OpenData.Blazor.Models
+@using Pin.OpenData.Blazor.Services
+
+@inject ILocationService LocationService
+
+<h1>Locations</h1>
+
+@if (locations == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    @foreach (var location in locations)
+    {
+        <div>
+            <p><strong>Name:</strong> @location.Name</p>
+            <p><strong>Street:</strong> @location.StreetName @location.HouseNumber</p>
+            <p><strong>Postal Code:</strong> @location.PostalCode</p>
+            <p><strong>City:</strong> @location.City</p>
+            <p><strong>Website:</strong> <a href="@location.Website">@location.Website</a></p>
+            <p><strong>Email:</strong> @location.Email</p>
+            <p><strong>Drinkwater:</strong> @location.Drinkwater</p>
+            <p><strong>Coordinates:</strong> Latitude: @location.GeoPoint2D.Lat, Longitude: @location.GeoPoint2D.Lon</p>
+            <p><strong>Geometry Type:</strong> @location.Geometry.Type</p>
+            <p><strong>Geometry Coordinates:</strong> Latitude: @location.Geometry.Coordinates.Lat, Longitude: @location.Geometry.Coordinates.Lon</p>
+        </div>
+        <hr />
+    }
+}
+
+@code {
+    List<Location> locations;
+
+    protected override void OnInitialized()
+    {
+        locations = LocationService.GetLocations();
+    }
+}

@@ -1,3 +1,5 @@
+using Pin.OpenData.Blazor.Services;
+
 namespace Pin.OpenData.Blazor
 {
     public class Program
@@ -9,6 +11,8 @@ namespace Pin.OpenData.Blazor
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
+
+            builder.Services.AddSingleton<ILocationService, LocationService>();
 
             var app = builder.Build();
 
