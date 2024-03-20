@@ -78,5 +78,10 @@ namespace Pin.OpenData.Blazor.Services
 		{
 			   _locations.Add(location);
 		}
+
+		public void DeleteLocation(Location location)
+		{
+			_locations.Remove(location);
+		}
     }
 }

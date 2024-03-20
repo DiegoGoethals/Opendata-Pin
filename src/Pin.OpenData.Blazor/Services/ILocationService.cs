@@ -7,5 +7,6 @@ namespace Pin.OpenData.Blazor.Services
         List<Location> GetLocations();
         Location GetLocation(string name);
         void AddLocation(Location location);
+        void DeleteLocation(Location location);
     }
 }

@@ -4,6 +4,7 @@
 @using Pin.OpenData.Blazor.Services
 
 @inject ILocationService LocationService
+@inject NavigationManager NavigationManager
 
 <h3>Detail: @location.Name</h3>
 
@@ -34,6 +35,10 @@ else
 			<p><strong>Email:</strong> <a href="mailto:@location.Email">@location.Email</a></p>
 		}
 	</div>
+	<div>
+		<h4>Delete location</h4>
+		<button class="btn btn-danger" @onclick="DeleteLocation">Delete</button>
+	</div>
 }
 
 @code {
@@ -45,5 +50,11 @@ else
 	protected override void OnInitialized()
 	{
 		location = LocationService.GetLocation(name);
+	}
+
+	private void DeleteLocation()
+	{
+		LocationService.DeleteLocation(location);
+		NavigationManager.NavigateTo("/");
 	}
 }

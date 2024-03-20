@@ -27,7 +27,7 @@
     transform: scale(1.05);
 }
 
-.card img {
+.card img:not(.delete-location) {
     width: 100%;
     height: auto;
     position: relative;
@@ -55,4 +55,20 @@
 .card a:hover {
     text-decoration: none;
     color: #000;
+}
+
+.delete-location {
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height:3rem;
+    width: 3rem;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.delete-location:hover {
+    transform: scale(1.1);
+    background-color: #f00;
 }
