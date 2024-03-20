@@ -23,8 +23,7 @@ namespace Pin.OpenData.Blazor.Services
 		{
 			List<Location> locations = new List<Location>();
 
-			string jsonFilePath = Path.Combine("C:\\Users\\diego\\source\\repos\\st-2-d-pe01-opendata-DiegoGoethals\\src\\Pin.OpenData.Core\\Data\\data.json");
-			Console.WriteLine("JSON File Path: " + jsonFilePath);
+			string jsonFilePath = "../Pin.OpenData.Core/Data/data.json";
 
 			if (File.Exists(jsonFilePath))
 			{
@@ -33,6 +32,12 @@ namespace Pin.OpenData.Blazor.Services
 
 				foreach (var item in jsonObject)
 				{
+					var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/water.avif");
+
+					FileStream fileStream = File.OpenRead(imagePath);
+
+					var image =  new FormFile(fileStream, 0, fileStream.Length, null, Path.GetFileName(imagePath));
+
 					Location location = new Location
 					{
 						Name = item.naam,
@@ -55,7 +60,8 @@ namespace Pin.OpenData.Blazor.Services
 								Lon = item.geometry.geometry.coordinates[0],
 								Lat = item.geometry.geometry.coordinates[1]
 							}
-						}
+						},
+						Image = item.image ?? image
 					};
 					locations.Add(location);
 				}
@@ -66,6 +72,11 @@ namespace Pin.OpenData.Blazor.Services
 		public Location GetLocation(string name)
         {
 			return _locations.FirstOrDefault(l => l.Name == name);
+		}
+
+		public void AddLocation(Location location)
+		{
+			   _locations.Add(location);
 		}
     }
 }

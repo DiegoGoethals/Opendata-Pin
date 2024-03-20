@@ -1,0 +1,63 @@
+﻿@using Pin.OpenData.Blazor.Models
+@using Pin.OpenData.Blazor.Services
+
+<form @onsubmit="@SubmitForm">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" @bind="location.Name" id="name" placeholder="Enter name" required>
+    </div>
+    <div class="form-group">
+        <label for="street">Street name</label>
+        <input class="form-control" @bind="location.StreetName" id="street" placeholder="Street" required>
+    </div>
+    <div class="form-group">
+        <label for="house">House number</label>
+        <input class="form-control" @bind="location.HouseNumber" id="house" placeholder="House number" required>
+    </div>
+    <div class="form-group">
+        <label for="postal">Postal code</label>
+        <input class="form-control" @bind="location.PostalCode" id="postal" type="number" required>
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input class="form-control" @bind="location.City" id="city" placeholder="City" required>
+    </div>
+    <div class="form-group">
+        <label for="website">Website</label>
+        <input class="form-control" @bind="location.Website" id="website" placeholder="Website">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" @bind="location.Email" id="email" placeholder="Email">
+    </div>
+    @* <div class="form-group">
+        <label for="image">Image</label>
+        <InputFile class="form-control" @onchange="async (e) => await HandleFileSelected(e)" id="image" accept="image/*" />
+    </div> *@
+    <button type="submit" class="btn btn-primary">Add new location</button>
+</form>
+
+@code {
+
+    [Parameter]
+    public EventCallback<Location> OnFormSubmitted { get; set; }
+
+    Location location { get; set; } = new Location();
+
+    private async Task SubmitForm()
+    {
+        await OnFormSubmitted.InvokeAsync(location);
+    }
+
+    // private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    // {
+    //     var file = e.File;
+
+    //     if (file != null)
+    //     {
+    //         var memoryStream = new MemoryStream();
+    //         await file.OpenReadStream().CopyToAsync(memoryStream);
+    //         location.Image = new FormFile(memoryStream, 0, memoryStream.Length, null, file.Name);
+    //     }
+    // }
+}

@@ -1,0 +1,26 @@
+﻿@page "/addlocation"
+
+@using Pin.OpenData.Blazor.Components
+@using Pin.OpenData.Blazor.Models
+@using Pin.OpenData.Blazor.Services
+
+@inject ILocationService LocationService
+
+<h3>AddLocation</h3>
+
+<LocationForm OnFormSubmitted="@HandleFormSubmitted" />
+
+@if (submittedLocation != null)
+{
+    <p>Location added: @submittedLocation.Name</p>
+}
+
+@code {
+    Location submittedLocation;
+
+    private void HandleFormSubmitted(Location location)
+    {
+        submittedLocation = location;
+        LocationService.AddLocation(location);
+    }
+}

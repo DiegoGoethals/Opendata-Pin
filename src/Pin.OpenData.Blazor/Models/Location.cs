@@ -12,5 +12,6 @@
         public GeoPoint2D GeoPoint2D { get; set; }
         public Geometry Geometry { get; set; }
         public string ImageLink { get; set; }
+        public IFormFile Image { get; set; }
     }
 }
