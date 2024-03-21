@@ -30,11 +30,7 @@
         <label for="email">Email</label>
         <input class="form-control" @bind="location.Email" id="email" placeholder="Email">
     </div>
-    @* <div class="form-group">
-        <label for="image">Image</label>
-        <InputFile class="form-control" @onchange="async (e) => await HandleFileSelected(e)" id="image" accept="image/*" />
-    </div> *@
-    <button type="submit" class="btn btn-primary">Add new location</button>
+    <button type="submit" class="btn btn-primary">@((Type == "add") ? "Add new location" : "Update location")</button>
 </form>
 
 @code {
@@ -42,22 +38,33 @@
     [Parameter]
     public EventCallback<Location> OnFormSubmitted { get; set; }
 
-    Location location { get; set; } = new Location();
+    [Parameter]
+    public string Type { get; set; }
+
+    [Parameter]
+    public Location location { get; set; } = new Location();
+
+    private Location locationCopy;
+
+    protected override void OnInitialized()
+    {
+        locationCopy = new Location
+            {
+                Id = location.Id != Guid.Empty ? location.Id : Guid.NewGuid(),
+                Name = location.Name,
+                StreetName = location.StreetName,
+                HouseNumber = location.HouseNumber,
+                PostalCode = location.PostalCode,
+                City = location.City,
+                Website = location.Website,
+                Email = location.Email
+            };
+
+        location = locationCopy;
+    }
 
     private async Task SubmitForm()
     {
         await OnFormSubmitted.InvokeAsync(location);
     }
-
-    // private async Task HandleFileSelected(InputFileChangeEventArgs e)
-    // {
-    //     var file = e.File;
-
-    //     if (file != null)
-    //     {
-    //         var memoryStream = new MemoryStream();
-    //         await file.OpenReadStream().CopyToAsync(memoryStream);
-    //         location.Image = new FormFile(memoryStream, 0, memoryStream.Length, null, file.Name);
-    //     }
-    // }
 }

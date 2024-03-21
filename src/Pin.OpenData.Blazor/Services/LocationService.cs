@@ -40,6 +40,7 @@ namespace Pin.OpenData.Blazor.Services
 
 					Location location = new Location
 					{
+						Id = Guid.NewGuid(),
 						Name = item.naam,
 						StreetName = item.straatnaam,
 						HouseNumber = item.huisnummer,
@@ -82,6 +83,12 @@ namespace Pin.OpenData.Blazor.Services
 		public void DeleteLocation(Location location)
 		{
 			_locations.Remove(location);
+		}
+
+		public void UpdateLocation(Location location)
+		{
+			var existingLocationIndex = _locations.FindIndex(l => l.Id == location.Id);
+			_locations[existingLocationIndex] = location;
 		}
     }
 }

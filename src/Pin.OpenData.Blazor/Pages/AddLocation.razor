@@ -1,4 +1,4 @@
-﻿@page "/addlocation"
+﻿@page "/location/add"
 
 @using Pin.OpenData.Blazor.Components
 @using Pin.OpenData.Blazor.Models
@@ -8,7 +8,7 @@
 
 <h3>AddLocation</h3>
 
-<LocationForm OnFormSubmitted="@HandleFormSubmitted" />
+<LocationForm OnFormSubmitted="@HandleFormSubmitted" Type="add" />
 
 @if (submittedLocation != null)
 {
