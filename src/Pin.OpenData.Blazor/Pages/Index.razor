@@ -11,17 +11,28 @@
 <ul class="card-container">
     @foreach (var location in locations)
     {
-	    <OverviewCard location="location" onDelete="DeleteLocation" />
+	    <OverviewCard location="location" onDelete="ShowDeleteModel" />
     }
 </ul>
+<ConfirmDeleteModal @ref="deleteModal" onDelete="DeleteLocation" location="locationToDelete" />
 
 @code {
     List<Location> locations;
+
+    ConfirmDeleteModal deleteModal;
+
+    Location locationToDelete;
 
     protected override void OnInitialized()
     {
         locations = LocationService.GetLocations();
     }
+
+    private void ShowDeleteModel(Location location)
+	{
+		locationToDelete = location;
+		deleteModal.Show();
+	}
 
     private void DeleteLocation(Location location)
     {

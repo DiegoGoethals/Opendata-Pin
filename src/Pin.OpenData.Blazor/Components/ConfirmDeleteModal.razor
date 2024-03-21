@@ -1,0 +1,35 @@
+﻿@using Pin.OpenData.Blazor.Models
+
+<div id="delete-dialog" style="display: @(isVisible ? "flex" : "none")">
+    <div class="dialog-content">
+        <h2>Are you sure you want to delete @(location != null ? location.Name : "")?</h2>
+        <button class="btn-danger" @onclick="DeleteLocation">Yes</button>
+        <button @onclick="CloseModal">No</button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<Location> onDelete { get; set; }
+
+    [Parameter]
+    public Location location { get; set; }
+
+    private bool isVisible = false;
+
+    public void Show()
+    {
+        isVisible = true;
+    }
+
+    public void CloseModal()
+    {
+        isVisible = false;
+    }
+
+    private async Task DeleteLocation()
+    {
+        await onDelete.InvokeAsync(location);
+        CloseModal();
+    }
+}

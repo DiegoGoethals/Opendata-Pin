@@ -2,11 +2,14 @@
 
 @using Pin.OpenData.Blazor.Models
 @using Pin.OpenData.Blazor.Services
+@using Pin.OpenData.Blazor.Components
 
 @inject ILocationService LocationService
 @inject NavigationManager NavigationManager
 
 <h3>Detail: @location.Name</h3>
+
+<ConfirmDeleteModal @ref="deleteModal" onDelete="DeleteLocation" location="location" />
 
 @if (location == null)
 {
@@ -37,7 +40,7 @@ else
 	</div>
 	<div>
 		<h4>Delete location</h4>
-		<button class="btn btn-danger" @onclick="DeleteLocation">Delete</button>
+		<button class="btn btn-danger" @onclick="ShowDeleteModel">Delete</button>
 	</div>
 }
 
@@ -45,11 +48,18 @@ else
 	[Parameter]
 	public string name { get; set; }
 
+	ConfirmDeleteModal deleteModal;
+
 	Location location;
 
 	protected override void OnInitialized()
 	{
 		location = LocationService.GetLocation(name);
+	}
+
+	private void ShowDeleteModel()
+	{
+		deleteModal.Show();
 	}
 
 	private void DeleteLocation()
