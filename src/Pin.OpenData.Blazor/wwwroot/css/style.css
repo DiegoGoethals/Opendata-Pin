@@ -96,3 +96,16 @@
 #delete-dialog button:hover {
     filter: brightness(.8);
 }
+
+.edit-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+}
+
+.edit-button:hover {
+    background-color: whitesmoke;
+    color: deepskyblue;
+}

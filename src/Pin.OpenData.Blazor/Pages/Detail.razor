@@ -17,6 +17,11 @@
 }
 else
 {
+	<div class="nav-item px-3 edit-button">
+		<NavLink class="nav-link" href="@link" Match="NavLinkMatch.All">
+			<span class="oi oi-pencil" aria-hidden="true"></span> Update location
+		</NavLink>
+	</div>
     <div>
         <p><strong>Name:</strong> @location.Name</p>
         <p><strong>Street:</strong> @location.StreetName @location.HouseNumber</p>
@@ -52,9 +57,12 @@ else
 
 	Location location;
 
+	string link;
+
 	protected override void OnInitialized()
 	{
 		location = LocationService.GetLocation(name);
+		link = "location/update/" + location.Name;
 	}
 
 	private void ShowDeleteModel()
