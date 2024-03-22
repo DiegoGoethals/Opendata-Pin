@@ -1,0 +1,26 @@
+﻿@using Pin.OpenData.Blazor.Services
+
+@inject INewsLetterService NewsLetterService
+
+<div class="newsletter" style="display: @(isSubscribed ? "none" : "flex")">
+	<h3>Subscribe to our newsletter</h3>
+	<form class="newletter-form" @onsubmit="Subscribe">
+		<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+		<button type="submit" class="btn btn-primary">Subscribe</button>
+	</form>
+</div>
+
+@code {
+	private bool isSubscribed;
+
+	protected override void OnInitialized()
+	{
+		isSubscribed = NewsLetterService.IsSubscribed();
+	}
+
+	private void Subscribe()
+	{
+		NewsLetterService.Subscribe();
+		isSubscribed = true;
+	}
+}

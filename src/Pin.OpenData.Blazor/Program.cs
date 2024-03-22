@@ -13,6 +13,7 @@ namespace Pin.OpenData.Blazor
             builder.Services.AddServerSideBlazor();
 
             builder.Services.AddSingleton<ILocationService, LocationService>();
+            builder .Services.AddSingleton<INewsLetterService, NewsLetterService>();
 
             var app = builder.Build();
 

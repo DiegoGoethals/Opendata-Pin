@@ -6,12 +6,6 @@ namespace Pin.OpenData.Blazor.Services
     public class LocationService : ILocationService
     {
         private static List<Location> _locations;
-        private readonly IWebHostEnvironment _env;
-
-        public LocationService(IWebHostEnvironment env)
-        {
-            _env = env;
-        }
 
 		public List<Location> GetLocations()
 		{

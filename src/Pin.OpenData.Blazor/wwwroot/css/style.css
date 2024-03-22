@@ -109,3 +109,12 @@
     background-color: whitesmoke;
     color: deepskyblue;
 }
+
+.newsletter {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}

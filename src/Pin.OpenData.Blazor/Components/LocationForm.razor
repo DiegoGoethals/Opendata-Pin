@@ -28,7 +28,7 @@
     </div>
     <div class="form-group">
         <label for="email">Email</label>
-        <input class="form-control" @bind="location.Email" id="email" placeholder="Email">
+        <input class="form-control" @bind="location.Email" id="email" placeholder="Email" type="email">
     </div>
     <button type="submit" class="btn btn-primary">@((Type == "add") ? "Add new location" : "Update location")</button>
 </form>
