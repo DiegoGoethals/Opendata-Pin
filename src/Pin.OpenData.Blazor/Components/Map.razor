@@ -1,0 +1,53 @@
+﻿@page "/map"
+
+@using Pin.OpenData.Blazor.Services
+@using Pin.OpenData.Blazor.Models
+
+@inject ILocationService LocationService
+@inject IJSRuntime JSRuntime
+
+<div id="map"></div>
+
+@code {
+    private double latitude = 0;
+    private double longitude = 0;
+    private List<Location> locations;
+
+    protected override void OnInitialized()
+    {
+        locations = LocationService.GetLocations();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializeMap();
+        }
+    }
+
+    private async Task InitializeMap()
+    {
+        await GetLocation();
+        await JSRuntime.InvokeVoidAsync("initializeMap", latitude, longitude);
+        await PlaceAllPins();
+    }
+
+    private async Task GetLocation()
+    {
+        var location = await JSRuntime.InvokeAsync<Dictionary<string, double>>("getCurrentLocation");
+        if (location != null)
+        {
+            latitude = location["latitude"];
+            longitude = location["longitude"];
+        }
+    }
+
+    private async Task PlaceAllPins()
+    {
+        foreach (var location in locations)
+		{
+			await JSRuntime.InvokeVoidAsync("addMarker", location.GeoPoint2D.Latitude, location.GeoPoint2D.Longitude);
+		}
+    }
+}

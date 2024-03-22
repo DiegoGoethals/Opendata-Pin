@@ -44,17 +44,8 @@ namespace Pin.OpenData.Blazor.Services
 						Email = item.email,
 						GeoPoint2D = new GeoPoint2D
 						{
-							Lon = item.geo_point_2d.lon,
-							Lat = item.geo_point_2d.lat
-						},
-						Geometry = new Geometry
-						{
-							Type = item.geometry.type,
-							Coordinates = new GeoPoint2D
-							{
-								Lon = item.geometry.geometry.coordinates[0],
-								Lat = item.geometry.geometry.coordinates[1]
-							}
+							Longitude = item.geo_point_2d.lon,
+							Latitude = item.geo_point_2d.lat
 						},
 						Image = item.image ?? image
 					};

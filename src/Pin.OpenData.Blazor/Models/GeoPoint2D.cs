@@ -2,7 +2,7 @@
 {
     public class GeoPoint2D
     {
-        public double Lon { get; set; }
-        public double Lat { get; set; }
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
     }
 }

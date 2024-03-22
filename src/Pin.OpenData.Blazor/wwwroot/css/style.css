@@ -122,3 +122,50 @@
     background-color: #f4f4f4;
     border: 1px solid #ccc;
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.material-icons {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #000;
+    z-index: 5;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    #map {
+        height: calc(100vh - 100px);
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #map {
+        height: calc(100vh - 120px);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #map {
+        height: calc(100vh - 140px);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #map {
+        height: calc(100vh - 160px);
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #map {
+        height: calc(100vh - 180px);
+    }
+}
