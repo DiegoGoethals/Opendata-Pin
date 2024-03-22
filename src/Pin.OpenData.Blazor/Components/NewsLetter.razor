@@ -5,13 +5,24 @@
 <div class="newsletter" style="display: @(isSubscribed ? "none" : "flex")">
 	<h3>Subscribe to our newsletter</h3>
 	<form class="newletter-form" @onsubmit="Subscribe">
-		<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+		<input type="email" class="form-control" id="email" @bind="email" placeholder="Enter email" required>
 		<button type="submit" class="btn btn-primary">Subscribe</button>
 	</form>
 </div>
 
+<div id="newsletter-dialog" style="display: @(isVisible ? "flex" : "none")">
+	<div class="dialog-content">
+		<h2>You are now subscribed to our newsletter with the email: @email</h2>
+		<button @onclick="CloseModal">Close</button>
+	</div>
+</div>
+
 @code {
 	private bool isSubscribed;
+
+	private string email;
+
+	private bool isVisible = false;
 
 	protected override void OnInitialized()
 	{
@@ -22,5 +33,16 @@
 	{
 		NewsLetterService.Subscribe();
 		isSubscribed = true;
+		Show();
+	}
+
+	private void Show()
+	{
+		isVisible = true;
+	}
+
+	private void CloseModal()
+	{
+		isVisible = false;
 	}
 }

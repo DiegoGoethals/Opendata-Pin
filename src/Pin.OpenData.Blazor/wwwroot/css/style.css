@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-content: space-between;
+    z-index: 1;
 }
 
 .card {
@@ -20,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .card:hover {
@@ -36,7 +38,7 @@
 
 .card a *:not(img) {
     position: absolute;
-    z-index: 3;
+    z-index: 2;
 }
 
 .card h2 {
@@ -73,7 +75,8 @@
     background-color: #f00;
 }
 
-#delete-dialog {
+#delete-dialog,
+#newsletter-dialog {
     display: none;
     position: fixed;
     top: 0;
@@ -93,7 +96,8 @@
     border-radius: .3rem;
 }
 
-#delete-dialog button:hover {
+#delete-dialog button:hover,
+#newsletter-dialog button:hover {
     filter: brightness(.8);
 }
 
