@@ -1,6 +1,4 @@
-﻿@page "/map"
-
-@using Pin.OpenData.Blazor.Services
+﻿@using Pin.OpenData.Blazor.Services
 @using Pin.OpenData.Blazor.Models
 
 @inject ILocationService LocationService
@@ -9,6 +7,12 @@
 <div id="map"></div>
 
 @code {
+    [Parameter]
+    public bool Detail { get; set; }
+
+    [Parameter]
+    public Location Location { get; set; }
+
     private double latitude = 0;
     private double longitude = 0;
     private List<Location> locations;
@@ -30,16 +34,34 @@
     {
         await GetLocation();
         await JSRuntime.InvokeVoidAsync("initializeMap", latitude, longitude);
-        await PlaceAllPins();
+        if (!Detail)
+        {
+            await PlaceAllPins();
+        }
+        else
+        {
+            await PlacePin();
+        }
     }
 
     private async Task GetLocation()
     {
-        var location = await JSRuntime.InvokeAsync<Dictionary<string, double>>("getCurrentLocation");
-        if (location != null)
+        if (!Detail)
         {
-            latitude = location["latitude"];
-            longitude = location["longitude"];
+            var location = await JSRuntime.InvokeAsync<Dictionary<string, double>>("getCurrentLocation");
+            if (location != null)
+            {
+                latitude = location["latitude"];
+                longitude = location["longitude"];
+            }
+        }
+        else
+        {
+            if (Location != null)
+            {
+                latitude = Location.GeoPoint2D.Latitude;
+                longitude = Location.GeoPoint2D.Longitude;
+            }
         }
     }
 
@@ -50,4 +72,9 @@
 			await JSRuntime.InvokeVoidAsync("addMarker", location.GeoPoint2D.Latitude, location.GeoPoint2D.Longitude);
 		}
     }
+
+    private async Task PlacePin()
+	{
+		await JSRuntime.InvokeVoidAsync("addMarker", Location.GeoPoint2D.Latitude, Location.GeoPoint2D.Longitude);
+	}
 }

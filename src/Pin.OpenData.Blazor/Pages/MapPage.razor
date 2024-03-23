@@ -1,0 +1,12 @@
+﻿@page "/map"
+
+@using Pin.OpenData.Blazor.Components
+@using Pin.OpenData.Blazor.Models
+
+<Map Detail="detail" Location="location"/>
+
+@code {
+	private bool detail = false;
+
+	private Location location = null;
+}
