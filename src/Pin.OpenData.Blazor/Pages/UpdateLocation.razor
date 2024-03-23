@@ -1,23 +1,19 @@
-﻿@page "/location/update/{name}"
+﻿@page "/location/update/{id}"
 
 @using Pin.OpenData.Blazor.Models
 @using Pin.OpenData.Blazor.Services
 @using Pin.OpenData.Blazor.Components
 
 @inject ILocationService LocationService
+@inject NavigationManager NavigationManager
 
 <h3>Update location details: @location.Name</h3>
 
 <LocationForm OnFormSubmitted="@HandleFormSubmitted" Type="update" location="location"/>
 
-@if (submittedLocation != null)
-{
-    <p>Location updated: @submittedLocation.Name</p>
-}
-
 @code {
     [Parameter]
-    public string name { get; set; }
+    public string id { get; set; }
 
     Location submittedLocation;
 
@@ -25,12 +21,13 @@
 
     protected override void OnInitialized()
     {
-        location = LocationService.GetLocation(name);
+        location = LocationService.GetLocation(Guid.Parse(id));
     }
 
     private void HandleFormSubmitted(Location location)
     {
         submittedLocation = location;
         LocationService.UpdateLocation(location);
+        NavigationManager.NavigateTo($"/location/{location.Id}");
     }
 }

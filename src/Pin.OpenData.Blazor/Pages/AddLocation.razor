@@ -5,15 +5,11 @@
 @using Pin.OpenData.Blazor.Services
 
 @inject ILocationService LocationService
+@inject NavigationManager NavigationManager
 
 <h3>Add a new location</h3>
 
 <LocationForm OnFormSubmitted="@HandleFormSubmitted" Type="add" />
-
-@if (submittedLocation != null)
-{
-    <p>Location added: @submittedLocation.Name</p>
-}
 
 @code {
     Location submittedLocation;
@@ -22,5 +18,6 @@
     {
         submittedLocation = location;
         await LocationService.AddLocation(location);
+        NavigationManager.NavigateTo($"/location/{location.Id}");
     }
 }

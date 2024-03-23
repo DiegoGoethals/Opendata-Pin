@@ -1,4 +1,4 @@
-﻿@page "/location/{name}"
+﻿@page "/location/{id}"
 
 @using Pin.OpenData.Blazor.Models
 @using Pin.OpenData.Blazor.Services
@@ -52,7 +52,7 @@ else
 
 @code {
 	[Parameter]
-	public string name { get; set; }
+	public string id { get; set; }
 
 	ConfirmDeleteModal deleteModal;
 
@@ -62,8 +62,8 @@ else
 
 	protected override void OnInitialized()
 	{
-		location = LocationService.GetLocation(name);
-		link = "location/update/" + location.Name;
+		location = LocationService.GetLocation(Guid.Parse(id));
+		link = "location/update/" + location.Id;
 	}
 
 	private void ShowDeleteModel()

@@ -55,9 +55,9 @@ namespace Pin.OpenData.Blazor.Services
 			return locations;
 		}
 
-		public Location GetLocation(string name)
+		public Location GetLocation(Guid id)
         {
-			return _locations.FirstOrDefault(l => l.Name == name);
+			return _locations.FirstOrDefault(l => l.Id == id);
 		}
 
 		public async Task AddLocation(Location location)

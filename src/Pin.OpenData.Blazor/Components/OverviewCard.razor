@@ -31,7 +31,7 @@
     <div>
         <img src="/images/trash-can.png" alt="delete location" class="delete-location" @onclick="DeleteLocationHandler"/>
     </div>
-    <a href="@($"location/{location.Name}")">
+    <a href="@($"location/{location.Id}")">
         @if (imageData != null && imageData.Length > 0)
         {
             <img src="@($"data:image;base64,{Convert.ToBase64String(imageData)}")" class="card-img-top" alt="@location.Name">
