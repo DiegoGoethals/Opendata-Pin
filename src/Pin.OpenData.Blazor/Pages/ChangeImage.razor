@@ -1,0 +1,47 @@
+﻿@page "/image"
+
+<h3>Change default image</h3>
+
+<form @onsubmit="UploadImage">
+    <InputFile accept="image/png" OnChange="HandleFileSelection" />
+    <button type="submit">Upload</button>
+</form>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p>@errorMessage</p>
+}
+
+@code {
+    private IBrowserFile uploadedFile;
+    private string errorMessage;
+
+    private async Task UploadImage()
+    {
+        if (uploadedFile == null)
+        {
+            errorMessage = "Please select a file.";
+            return;
+        }
+
+        if (!uploadedFile.ContentType.Contains("image/png", StringComparison.OrdinalIgnoreCase))
+        {
+            errorMessage = "Please upload a PNG file.";
+            return;
+        }
+
+        // Upload the file directly to the server's filesystem
+        using (var stream = uploadedFile.OpenReadStream())
+        using (var fileStream = new FileStream("wwwroot/images/water.png", FileMode.Create))
+        {
+            await stream.CopyToAsync(fileStream);
+        }
+
+        errorMessage = "File uploaded successfully.";
+    }
+
+    private void HandleFileSelection(InputFileChangeEventArgs e)
+    {
+        uploadedFile = e.File;
+    }
+}

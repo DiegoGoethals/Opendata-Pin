@@ -12,6 +12,5 @@
         public string Email { get; set; }
         public GeoPoint2D GeoPoint2D { get; set; }
         public string ImageLink { get; set; }
-        public IFormFile Image { get; set; }
     }
 }

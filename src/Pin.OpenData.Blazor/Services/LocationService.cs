@@ -26,11 +26,11 @@ namespace Pin.OpenData.Blazor.Services
 
 				foreach (var item in jsonObject)
 				{
-					var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/water.avif");
+					//var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/water.avif");
 
-					FileStream fileStream = File.OpenRead(imagePath);
+					//FileStream fileStream = File.OpenRead(imagePath);
 
-					var image =  new FormFile(fileStream, 0, fileStream.Length, null, Path.GetFileName(imagePath));
+					//var image =  new FormFile(fileStream, 0, fileStream.Length, null, Path.GetFileName(imagePath));
 
 					Location location = new Location
 					{
@@ -46,8 +46,7 @@ namespace Pin.OpenData.Blazor.Services
 						{
 							Longitude = item.geo_point_2d.lon,
 							Latitude = item.geo_point_2d.lat
-						},
-						Image = item.image ?? image
+						}
 					};
 					locations.Add(location);
 				}

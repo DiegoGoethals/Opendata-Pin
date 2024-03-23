@@ -4,7 +4,7 @@ namespace Pin.OpenData.Blazor
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +14,12 @@ namespace Pin.OpenData.Blazor
 
             builder.Services.AddSingleton<ILocationService, LocationService>();
             builder .Services.AddSingleton<INewsLetterService, NewsLetterService>();
+            builder.Services.AddSingleton<IImageService, ImageService>();
 
             var app = builder.Build();
+
+            var imageService = app.Services.GetRequiredService<IImageService>();
+            await imageService.SetStandardPicture();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
