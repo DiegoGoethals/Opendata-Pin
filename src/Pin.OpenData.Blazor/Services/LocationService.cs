@@ -60,9 +60,11 @@ namespace Pin.OpenData.Blazor.Services
 			return _locations.FirstOrDefault(l => l.Name == name);
 		}
 
-		public void AddLocation(Location location)
+		public async Task AddLocation(Location location)
 		{
-			   _locations.Add(location);
+			var (latitude, longitude) = await GeocodeAddressAsync(location.StreetName, location.HouseNumber, location.PostalCode, location.City);
+			location.GeoPoint2D = new GeoPoint2D { Latitude = latitude, Longitude = longitude };
+			_locations.Add(location);
 		}
 
 		public void DeleteLocation(Location location)
@@ -75,5 +77,43 @@ namespace Pin.OpenData.Blazor.Services
 			var existingLocationIndex = _locations.FindIndex(l => l.Id == location.Id);
 			_locations[existingLocationIndex] = location;
 		}
-    }
+
+		private static async Task<(double latitude, double longitude)> GeocodeAddressAsync(string street, string houseNumber, string postalCode, string city)
+		{
+			try
+			{
+				string address = $"{street} {houseNumber}, {postalCode}, {city}";
+
+				string apiUrl = $"https://nominatim.openstreetmap.org/search?format=json&q={Uri.EscapeDataString(address)}";
+
+				using (var httpClient = new HttpClient())
+				{
+					httpClient.DefaultRequestHeaders.Add("User-Agent", "DrinkWaterGent/1.0");
+					var response = await httpClient.GetAsync(apiUrl);
+					if (response.IsSuccessStatusCode)
+					{
+						var json = await response.Content.ReadAsStringAsync();
+						Console.WriteLine(json);
+						dynamic results = JsonConvert.DeserializeObject(json);
+						Console.WriteLine(results);
+						if (results != null)
+						{
+							var resultObject = results[0];
+							double latitude = resultObject["lat"];
+							double longitude = resultObject["lon"];
+
+							Console.WriteLine($"Geocoded address {address} to latitude {latitude} and longitude {longitude}");
+							return (latitude, longitude);
+						}
+					}
+				}
+				return (0, 0);
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Error geocoding address: {ex.Message}");
+				return (0, 0);
+			}
+		}
+	}
 }

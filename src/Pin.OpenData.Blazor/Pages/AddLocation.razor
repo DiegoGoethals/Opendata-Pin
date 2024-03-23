@@ -18,9 +18,9 @@
 @code {
     Location submittedLocation;
 
-    private void HandleFormSubmitted(Location location)
+    private async void HandleFormSubmitted(Location location)
     {
         submittedLocation = location;
-        LocationService.AddLocation(location);
+        await LocationService.AddLocation(location);
     }
 }
