@@ -1,66 +1,39 @@
-# PE1 opdracht  
+### PE1 Assignment - Blazor Server Application for Visualizing Open Data
 
-Maak voor deze opdracht een Blazor Server applicatie die [open data](https://nl.wikipedia.org/wiki/Open_data) visualiseert.
+#### Task Description:
 
-Je kiest zelf één gekozen open data set. Je kan hiervoor bijvoorbeeld onderstaande lijsten raadplegen:
+Develop a Blazor Server application to visualize all public drinkwater places in Gent. Your data set can be found here:
 
-- [Open Data Brugge](https://www.brugge.be/opendata)
-- [Open Data Oostende](https://www.oostende.be/opendata)
-- [Open Data Gent](https://data.stad.gent/)
-- [Open Data Antwerpen](https://www.antwerpen.be/open-data)
-- [Open Data Vlaanderen](https://www.vlaanderen.be/datavindplaats)
-- [Open Data België](https://data.gov.be/en)
-- [Open Data Europa](https://data.europa.eu/en)
-- [GitHub repo met links naar verschillende open data sets](https://github.com/awesomedata/awesome-public-datasets)
+[Open Data Gent](https://data.stad.gent/)
 
-## Omschrijving
+#### Requirements:
 
-- Je maakt overzichtspagina van alle items in je dataset. Dit is dan ook de 'homepage' van je applicatie. Je toont niet alle properties van je dataset maar toont de belangrijkste. Je kan hiervoor bijvoorbeeld een tabel gebruiken.
+1. **Homepage**: Create an overview page displaying a list of items from your chosen dataset (e.g., in a table), showing only key properties.
 
-- Wanneer er geklikt wordt op een item uit de homepage dient men terecht te komen op een pagina waarop je de details van je data ziet.
+2. **Details Page**: Clicking on an item from the homepage should redirect to a page with detailed information about the selected item.
 
-- Je maakt een formulier om een nieuwe item toe te voegen aan je dataset (**in memory**). Je zal dus bij het starten van je applicatie je dataset moeten uitlezen, omzetten naar C# objecten en deze in een collectie **in het geheugen** bijhouden. 
+3. **Form to Add New Items**: Implement a form to add new items to the dataset (in-memory only). Upon starting the application, read and convert the dataset to C# objects and store them in a collection in memory.
 
-- Dit formulier dient te bestaan uit een aantal input velden die relevant zijn voor je gekozen dataset.
+4. **Form to Edit Items**: Implement a form to edit existing items (in-memory). The form should contain fields relevant to your chosen dataset.
 
-- Je maakt een formulier om een bestaand item te wijzigen (**in memory**). Dit formulier dient te bestaan uit een aantal input velden die relevant zijn voor je gekozen dataset.
+5. **Delete Items**: Implement functionality to delete items (in-memory).
 
-- Je voorziet de mogelijkheid om een item te verwijderen (**in memory**).
+6. **Data Persistence**: Since the data is held in memory, changes will be lost when the application is restarted.
 
-- Aangezien je de data na het inlezen in memory bijhoudt is het dus volledig normaal dat je aanpassingen terug verdwenen zijn wanneer je je applicatie terug opstart.
+7. **Newsletter Subscription**: On **every page**, provide a form for users to subscribe to a fictional newsletter by entering an email address. After clicking the subscribe button, hide the form and show a confirmation message. There is no need to store the email address.
 
-- Voorzie op **elke pagina** een mogelijkheid om in te schrijven in op een fictieve nieuwsbrief. Een gebruiker dient hiervoor enkel zijn e-mailadres in te vullen. 
-Na het klikken op een knop om in te schrijven verberg je de component en toon je een gepaste melding aan de gebruiker. Verder hoef je niks te doen, het e-mailadres dient dus niet in de database te worden bijgehouden.
+#### Guidelines:
 
-Voorbeeld:
+- Use Blazor components as much as possible.
+- Design a visually appealing application layout, and feel free to use Bootstrap components.
+- You must download the data (in CSV, JSON, or XML format) and place it in the **Data** folder of your **Core** project. The application should not retrieve data from external APIs.
 
-![](images/pin-pe-01-opendata-01.png)
+#### Development Steps:
 
-## Uitwerking
+1. Use tools like [JSON2CSharp](https://json2csharp.com/), [CsvHelper](https://joshclose.github.io/CsvHelper/), or [System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-6.0) to convert your dataset into C# objects.
+2. Ensure the dataset file is included in your **Core** project and marked as **Content** so it can be accessed during evaluation.
+3. Familiarize yourself with how to read these files in your code.
 
-- Je maakt zoveel mogelijk gebruik van Blazor componenten
+---
 
-- Je verzorgt de layout van je uitwerking, je maakt een grafisch verzorgde applicatie. Je mag hiervoor aan de slag met Bootstrap, ga hiervoor even op zoek naar de [Bootstrap componenten documentatie](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
-
-
-## Project
-Er is reeds een .Blazor en .Core project voorzien. Voorzie hierin de nodige code en hou rekening met Seperation Of Concerns.
-
-- Maak, waar nodig, zoveel mogelijk gebruik van eigen componenten.
-- Maak geen gebruik van externe Blazor UI frameworks.
-
-## Data
-
-- Je dient de data van je gekozen dataset te downloaden (formaat maakt niet uit) en toe te voegen in de reeds bestaande **Data** folder in je **Core** project. Zodat ik tijdens het evalueren van je opdracht de data kan gebruiken. *Je gaat dus in je applicatie niet naar een externe API om de data op te halen!*
-
-- Je zorgt voor een .csv, .json of .xml bestand met de data. Dit bestand lees je dan uit en zet je om naar een lijst van objecten. Deze lijst van objecten kan je dan gebruiken in je applicatie. Websites die je hiermee kunnen helpen zijn;
-	- [https://json2csharp.com/](https://json2csharp.com/) (JSON -> C# en XML -> C#)
-	- [https://www.convertcsv.com/](https://www.convertcsv.com/)
-	- [https://joshclose.github.io/CsvHelper/](https://joshclose.github.io/CsvHelper/) (Nuget package voor C# om CSV uit te lezen)
-	- [System.Text.Json docs](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-6.0)
-	- [Newtonsoft docs](https://www.newtonsoft.com/json)
-	- [Verschil tussen System.Text.Json en Newtonsoft.Json mogelijkheden](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-6-0)
-
-- Voorzie dat je bestand in je Core project wordt gecompileerd. Dit kan je doen door het bestand toe te voegen aan je Core project en het als '**Content**' te markeren. [Meer info](https://learn.microsoft.com/en-us/visualstudio/ide/build-actions?view=vs-2022). Deze stap is zéér belangrijk, zo ben ik zeker dat ik tijdens je evaluatie ook met je zelfde dataset kan werken. 
-- Zoek even op hoe je dit bestand kan benaderen/uitlezen in je code.
-
+This task is aimed at developing a fully functional Blazor Server application that visualizes and interacts with open data while adhering to best practices for code structure and component-based design.
